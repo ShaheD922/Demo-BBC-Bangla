@@ -22,8 +22,41 @@
       referrerpolicy="no-referrer"
     />
 
+<!-- noto serif bengali -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&display=swap" rel="stylesheet">
+    
+<style>
+    *{
+          font-family: "Noto Serif Bengali", serif;
+    }
+</style>
 </head>
 <body>
-    <h1 class="bg-red-500">hello cdn</h1>
-</body>
+   
+<header>
+  <div class="bg-red-600 py-5">
+    <div class="max-w-7xl mx-auto px-5">
+      <img class="invert" src="./assets/logo.svg" alt="">
+    </div>
+  </div>
+
+  <nav class="border-b border-gray-300">
+    <ul id="categoryContainer" class="flex gap-10 text-lg max-w-7xl mx-auto px-5 ">
+     
+    </ul>
+  </nav>
+</header>
+
+<main class="max-w-7xl mx-auto px-5">
+
+  <div class="grid grid-cols-4 gap-5" id="newsContainer">
+
+  </div>
+
+</main>
+
+<script src="./index.js"></script>
+ </body>
 </html>
